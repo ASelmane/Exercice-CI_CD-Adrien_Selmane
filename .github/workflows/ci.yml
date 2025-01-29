@@ -32,3 +32,6 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+      - name: Run test cucumber
+        run: npx cucumber-js
